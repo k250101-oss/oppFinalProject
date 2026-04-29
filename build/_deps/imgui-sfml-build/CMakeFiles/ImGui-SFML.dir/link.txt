@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\ImGui-SFML.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\ImGui-SFML.dir/objects.a @CMakeFiles\ImGui-SFML.dir\objects1.rsp
+C:\msys64\ucrt64\bin\c++.exe -shared -o libImGui-SFML.dll -Wl,--out-implib,libImGui-SFML.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\ImGui-SFML.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\ImGui-SFML.dir\linkLibs.rsp
